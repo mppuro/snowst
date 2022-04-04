@@ -23,7 +23,7 @@ def run_query(query):
         return cur.fetchall()
 
 
-rows = run_query("SELECT * from mytable;")
+rows = run_query("SELECT * from PHARMAC;")
 
 # Print results.
 for row in rows:
